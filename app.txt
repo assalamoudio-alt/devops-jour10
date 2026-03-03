@@ -3,3 +3,4 @@ Modification faite depuis GitHub
 Ajout depuis branche feature
 Ajout bonus
 Ligne conflit master
+Ligne conflit
