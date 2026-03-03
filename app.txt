@@ -2,3 +2,4 @@ Projet DevOps - jour 10
 Modification faite depuis GitHub
 Ajout depuis branche feature
 Ajout bonus
+Ligne conflit
