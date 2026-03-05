@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  database:
+    image: mysql:5.7
+    container_name: mysql_devops
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
