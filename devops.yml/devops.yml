@@ -1,0 +1,17 @@
+name: DevOps Pipeline
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v3
+
+      - name: Build Docker image
+        run: docker -t build monsite .
+
+      - name: Run docker container
+        run: docker run -d -p 8080:80 monsite
